@@ -22,7 +22,7 @@ public class Roman {
 					break;
 				case ('X'):
 					if(i < cadena.length() - 1) {
-						switch(charArray[i] + 1) {
+						switch(charArray[i + 1]) {
 						case ('C'):
 							decimal += 90;
 							i++;
